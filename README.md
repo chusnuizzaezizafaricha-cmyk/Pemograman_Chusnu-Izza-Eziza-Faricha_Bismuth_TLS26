@@ -4,14 +4,11 @@ Tugas Pemrograman Dasar - Luminous Quest TLS 2026. Berisi implementasi C++ untuk
 Problem 1
 
 #include <iostream>
-
 int getLength(const char str[]) {
     int len = 0;
     while (str[len] != '\0') {
-        len++;
-    }
+        len++;}
     return len;}
-
 int main() {
     int n, k;
     std::cout << "Masukkan jumlah astronot: ";
@@ -109,3 +106,5 @@ int main() {
 
     return 0;
 }
+
+[Flowchart.pdf](https://github.com/user-attachments/files/32389319/Flowchart.pdf)
